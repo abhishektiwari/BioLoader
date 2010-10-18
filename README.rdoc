@@ -1,0 +1,26 @@
+== BioLoader
+
+Collection of tools for loading, synchronizing and updating raw Biological data from public ftp repositories into the data warehouse.  BioLoader will support delta downloads or incremental updates, with API access. In addition, bioftpalerts provides social alerts (Twitter, Facebook and FriendFeed) when Bio FTP servers update their data. 
+
+Learn more about delta downloads or incremental updates,
+http://www.abhishek-tiwari.com/2010/10/delta-downloads-for-big-data-in-bioinformatics.html
+
+== Dependencies
+
+* Python 2.5+
+* tweepy
+* ftputil
+* rsync
+
+
+== Help & Documentation
+For more information about installing, running and configuring BioLoader
+including a list of known issues and troubleshooting information, 
+refer to: http://wiki.github.com/abhishektiwari/BioLoader/
+
+
+== Authors and copyright
+© 2010 Abhishek Tiwari (abhishek@abhishek-tiwari.com)
+
+The software included in this package is copyrighted freeware
+distributed under the terms and conditions as specified in file LICENSE.
