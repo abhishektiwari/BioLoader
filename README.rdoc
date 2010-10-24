@@ -8,9 +8,19 @@ http://www.abhishek-tiwari.com/2010/10/delta-downloads-for-big-data-in-bioinform
 == Dependencies
 
 * Python 2.5+
+* MongoDB
 * tweepy
+* pymongo
 * ftputil
+* simplejson
 * rsync
+
+To install MongoDB, on Ubuntu 10.10 use
+
+	sudo apt-key adv --keyserver keyserver.ubuntu.com --recv 7F0CEB10
+	sudo add-apt-repository  'deb http://downloads.mongodb.org/distros/ubuntu 10.10 10gen'
+	sudo apt-get update
+	sudo apt-get -y install mongodb-stable
 
 
 == Help & Documentation
