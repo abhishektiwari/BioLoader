@@ -8,7 +8,8 @@ except ImportError:
 	from distutils.core import setup
  
 config = {
-	'description': 'BioLoader',
+	'name': 'BioLoader',
+	'description': 'Collection of tools for ftp data, synchronization',
 	'author': 'Abhishek Tiwari',
 	'url': 'http://github.com/abhishektiwari/BioLoader',
 	'download_url': 'http://github.com/abhishektiwari/BioLoader',
